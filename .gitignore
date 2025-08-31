@@ -1,0 +1,14 @@
+.Rproj.user
+.Rhistory
+.Rprofile
+*.Rproj
+*.RData
+*.output
+*.csv
+*.pdf
+*.xlsx
+backup/*
+*.jar
+*.rar
+*.zip
+.DS_Store

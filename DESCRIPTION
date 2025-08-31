@@ -1,0 +1,47 @@
+Package: TCDT
+Title: Two-Sample Conditional Distribution Testing 
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Zhuoxi", "Li", , "lizhuoxi@ust.hk", role = c("aut", "cre")),
+    person("Jian", "Yan", , "jy929@cornell.edu", role = "aut"),
+    person("Xianyang", "Zhang", , "zhangxiany@stat.tamu.edu", role = "aut")
+  )
+Description: This package provides tools for performing two-sample tests to determine if two conditional distributions are the same. It implements the methods proposed by Yan, Li and Zhang (2025), using either conditional energy distance (CED) or conditional maximum mean discrepancy (CMMD).
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+Imports: 
+    ANN2,
+    CVST,
+    densratio,
+    digest,
+    doFuture,
+    dplyr,
+    forcats,
+    foreach,
+    ggh4x,
+    ggplot2,
+    ggthemes,
+    glue,
+    gridExtra,
+    gtable,
+    kernlab,
+    mixtools,
+    mvtnorm,
+    openxlsx,
+    purrr,
+    Rcpp,
+    readr,
+    reshape2,
+    rlang,
+    scales,
+    sn,
+    tictoc,
+    TruncatedNormal
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

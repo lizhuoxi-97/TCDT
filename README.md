@@ -10,11 +10,6 @@ The package supports both global and local tests:
 entire support of the conditioning variables.
 - **Local tests** focus on the equality of conditional distributions at a specific point.
 
-**Notice:** This R package is a development version and mainly serves as 
-supplementary material for the paper by Yan, Li and Zhang (2025). 
-The features in this package may be integrated into the `KDist` R package in the 
-future, which is available at [https://github.com/zhangxiany-tamu/KDist](https://github.com/zhangxiany-tamu/KDist).
-
 ## Installation
 
 You can install the `TCDT` package from GitHub using the `devtools` package:
